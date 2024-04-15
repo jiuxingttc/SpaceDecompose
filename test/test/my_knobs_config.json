@@ -1,0 +1,61 @@
+{
+    "innodb_thread_concurrency": {
+        "default": 0,
+        "dynamic": "Yes",
+        "max": 1000,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_log_file_size": {
+        "default": 50331648,
+        "dynamic": "No",
+        "max": 1073741824,
+        "min": 4194304,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_doublewrite": {
+        "default": "ON",
+        "dynamic": "No",
+        "enum_values": [
+            "ON",
+            "OFF"
+        ],
+        "scope": "Global",
+        "type": "enum"
+    },
+    "innodb_flush_log_at_trx_commit": {
+        "default": 1,
+        "dynamic": "Yes",
+        "enum_values": [
+            "0",
+            "1",
+            "2"
+        ],
+        "scope": "Global",
+        "type": "enum"
+    },
+    "innodb_change_buffering": {
+        "default": "all",
+        "dynamic": "Yes",
+        "enum_values": [
+            "none",
+            "inserts",
+            "deletes",
+            "changes",
+            "purges",
+            "all"
+        ],
+        "scope": "Global",
+        "type": "enum"
+    },
+    "max_allowed_packet": {
+        "default": 4194304,
+        "dynamic": "Yes",
+        "max": 1073741824,
+        "min": 1024,
+        "scope": "Global, Session",
+        "type": "integer"
+    }
+}

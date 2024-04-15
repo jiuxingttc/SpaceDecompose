@@ -1,0 +1,64 @@
+{
+    "innodb_thread_concurrency": {
+        "default": 0,
+        "apply": 300,
+        "dynamic": "Yes",
+        "max": 1000,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_thread_sleep_delay": {
+        "default": 10000,
+        "apply": 30000,
+        "dynamic": "Yes",
+        "max": 1000000,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "autocommit": {
+        "default": "ON",
+        "apply": "ON",
+        "dynamic": "Yes",
+        "enum_values": [
+            "ON",
+            "OFF"
+        ],
+        "scope": "Global, Session",
+        "type": "enum"
+    },
+    "innodb_fast_shutdown": {
+        "default": 1,
+        "apply": 1,
+        "dynamic": "Yes",
+        "enum_values": [
+            "0",
+            "1",
+            "2"
+        ],
+        "scope": "Global",
+        "type": "enum"
+    },
+    "innodb_flush_log_at_trx_commit": {
+        "default": 1,
+        "apply": 1,
+        "dynamic": "Yes",
+        "enum_values": [
+            "0",
+            "1",
+            "2"
+        ],
+        "scope": "Global",
+        "type": "enum"
+    },
+    "innodb_force_recovery": {
+        "default": 0,
+        "apply": 0,
+        "dynamic": "No",
+        "max": 6,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    }
+}

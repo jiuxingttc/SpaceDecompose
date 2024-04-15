@@ -1,0 +1,8 @@
+{
+    "report_interval": 1,
+    "run_time": 300,
+    "threads": 30,
+    "tables": 100,
+    "table_size": 800000,
+    "script": "oltp_read_write"
+}

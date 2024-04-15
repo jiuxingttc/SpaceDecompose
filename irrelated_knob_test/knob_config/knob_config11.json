@@ -1,0 +1,101 @@
+{
+    "sql_log_off": {
+        "default": "OFF",
+        "apply": "ON",
+        "dynamic": "Yes",
+        "enum_values": [
+            "ON",
+            "OFF"
+        ],
+        "scope": "Global, Session",
+        "type": "enum"
+    },
+    "general_log": {
+        "default": "OFF",
+        "apply": "ON",
+        "dynamic": "Yes",
+        "enum_values": [
+            "ON",
+            "OFF"
+        ],
+        "scope": "Global",
+        "type": "enum"
+    },
+    "slow_query_log": {
+        "default": "OFF",
+        "apply": "ON",
+        "dynamic": "Yes",
+        "enum_values": [
+            "ON",
+            "OFF"
+        ],
+        "scope": "Global",
+        "type": "enum"
+    },
+    "autocommit": {
+        "default": "ON",
+        "apply": "OFF",
+        "dynamic": "Yes",
+        "enum_values": [
+            "ON",
+            "OFF"
+        ],
+        "scope": "Global, Session",
+        "type": "enum"
+    },
+    "innodb_fast_shutdown": {
+        "default": 1,
+        "apply": 2,
+        "dynamic": "Yes",
+        "enum_values": [
+            "0",
+            "1",
+            "2"
+        ],
+        "scope": "Global",
+        "type": "enum"
+    },
+    "innodb_flush_log_at_trx_commit": {
+        "default": 1,
+        "apply": 0,
+        "dynamic": "Yes",
+        "enum_values": [
+            "0",
+            "1",
+            "2"
+        ],
+        "scope": "Global",
+        "type": "enum"
+    },
+    "innodb_force_recovery": {
+        "default": 0,
+        "apply": 5,
+        "dynamic": "No",
+        "max": 6,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_file_per_table": {
+        "default": "ON",
+        "apply": "OFF",
+        "dynamic": "Yes",
+        "enum_values": [
+            "ON",
+            "OFF"
+        ],
+        "scope": "Global",
+        "type": "enum"
+    },
+    "innodb_use_native_aio": {
+        "default": "ON",
+        "apply": "ON",
+        "dynamic": "No",
+        "enum_values": [
+            "ON",
+            "OFF"
+        ],
+        "scope": "Global",
+        "type": "enum"
+    }
+}

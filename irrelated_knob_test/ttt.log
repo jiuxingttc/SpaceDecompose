@@ -1,0 +1,68 @@
+['innodb_thread_concurrency', 'innodb_thread_sleep_delay']: 1
+[['wait_timeout'], ['binlog_format', 'innodb_fast_shutdown', 'innodb_force_recovery', 'autocommit'], 
+['binlog_format', 'max_binlog_stmt_cache_size'], 
+['flush', 'flush_time'], 
+['sql_log_off', 'log', 'log_slow_queries', 'slow_query_log', 'general_log'], 
+['autocommit', 'innodb_flush_log_at_trx_commit', 'innodb_force_recovery', 'innodb_locks_unsafe_for_binlog', 'innodb_stats_sample_pages', 'innodb_fast_shutdown'], 2
+['innodb_file_per_table', 'innodb_file_format'], 
+['autocommit', 'innodb_fast_shutdown', 'innodb_flush_log_at_trx_commit', 'innodb_force_recovery', 'innodb_locks_unsafe_for_binlog', 'innodb_stats_sample_pages', 'innodb_use_sys_malloc'], 
+['innodb_flush_method', 'autocommit', 'innodb_fast_shutdown', 'innodb_force_recovery', 'innodb_flush_log_at_trx_commit'], 
+['autocommit', 'innodb_fast_shutdown', 'innodb_flush_log_at_trx_commit', 'innodb_locks_unsafe_for_binlog', 'innodb_stats_sample_pages', 'innodb_force_recovery'], 
+['innodb_fast_shutdown', 'innodb_max_purge_lag'],
+ ['autocommit', 'innodb_fast_shutdown', 'innodb_flush_log_at_trx_commit', 'innodb_force_recovery', 'innodb_locks_unsafe_for_binlog', 'innodb_log_buffer_size'],
+['autocommit', 'innodb_fast_shutdown', 'innodb_flush_log_at_trx_commit', 'innodb_force_recovery', 'innodb_locks_unsafe_for_binlog', 'innodb_stats_sample_pages', 'innodb_file_per_table', 'innodb_use_native_aio'], 
+['event_scheduler', 'lock_wait_timeout'], ['sql_log_off', 'general_log', 'log_slow_queries', 'slow_query_log', 'log'],
+ ['general_log', 'log', 'log_slow_queries', 'slow_query_log', 'log_output'], 
+ ['slow_query_log', 'general_log', 'log', 'log_queries_not_using_indexes', 'log_slow_queries'], 
+ ['max_relay_log_size', 'slave_transaction_retries', 'max_binlog_size'], 
+ ['table_open_cache', 'table_definition_cache'],
+  ['autocommit', 'binlog_format', 'innodb_fast_shutdown', 'innodb_force_recovery', 'max_allowed_packet', 'query_cache_size', 'relay_log_purge', 'sql_notes', 'sql_mode'], 
+  ['tmp_table_size', 'max_heap_table_size'], 
+  ['slave_transaction_retries', 'sync_master_info'], ['secure_auth', 'old_passwords'], ['query_cache_size', 'log', 'sql_logquery_cache_type'], ['binlog_format', 'slave_transaction_retries', 'server_id'], 
+  ['event_scheduler', 'slave_transaction_retries', 'slave_net_timeout'], ['log_slow_queries', 'general_log', 'log', 'log_queries_not_using_indexes', 'slow_query_log'], ['max_heap_table_size', 'tmp_table_size'], ['autocommit', 'binlog_format', 'innodb_fast_shutdown', 'innodb_force_recovery', 'max_allowed_packet', 'query_cache_size', 'relay_log_purge', 'sql_notes'], ['relay_log_purge', 'sync_relay_log_info'], ['foreign_key_checks', 'unique_checks']]
+
+
+
+  ['autocommit', 'innodb_fast_shutdown', 'innodb_flush_log_at_trx_commit', 'innodb_force_recovery', 'innodb_locks_unsafe_for_binlog', 'innodb_stats_sample_pages', 'innodb_file_per_table', 'innodb_use_native_aio']: 5
+  [['wait_timeout'], 
+  ['binlog_format', 'max_binlog_stmt_cache_size'], 
+  ['flush', 'flush_time'], 
+  ['sql_log_off', 'log', 'log_slow_queries', 'slow_query_log', 'general_log'], 
+  ['innodb_thread_concurrency', 'innodb_thread_sleep_delay'], 
+  ['event_scheduler', 'lock_wait_timeout'], 
+  ['sql_log_off', 'general_log', 'log_slow_queries', 'slow_query_log', 'log'], 
+  ['general_log', 'log', 'log_slow_queries', 'slow_query_log', 'log_output'], 
+  ['slow_query_log', 'general_log', 'log', 'log_queries_not_using_indexes', 'log_slow_queries'],
+   ['max_relay_log_size', 'slave_transaction_retries', 'max_binlog_size'], 
+   ['table_open_cache', 'table_definition_cache'], 
+   ['tmp_table_size', 'max_heap_table_size'],  6
+   ['slave_transaction_retries', 'sync_master_info'], 
+   ['secure_auth', 'old_passwords'],
+    ['query_cache_size', 'log', 'sql_logquery_cache_type'], 
+    ['binlog_format', 'slave_transaction_retries', 'server_id'], 
+    ['event_scheduler', 'slave_transaction_retries', 'slave_net_timeout'], 
+    ['log_slow_queries', 'general_log', 'log', 'log_queries_not_using_indexes', 'slow_query_log'], 
+    ['max_heap_table_size', 'tmp_table_size'], 
+    ['relay_log_purge', 'sync_relay_log_info'], 
+    ['foreign_key_checks', 'unique_checks']]
+
+
+
+    ['sql_log_off', 'general_log', 'log_slow_queries', 'slow_query_log', 'log']: 9
+    [['wait_timeout'],
+     ['binlog_format', 'innodb_fast_shutdown', 'innodb_force_recovery', 'autocommit'], 
+     ['binlog_format', 'max_binlog_stmt_cache_size'], 
+     ['flush', 'flush_time'], ['autocommit', 'innodb_flush_log_at_trx_commit', 'innodb_force_recovery', 'innodb_locks_unsafe_for_binlog', 'innodb_stats_sample_pages', 'innodb_fast_shutdown'], 
+     ['innodb_file_per_table', 'innodb_file_format'], 
+     ['autocommit', 'innodb_fast_shutdown', 'innodb_flush_log_at_trx_commit', 'innodb_force_recovery', 'innodb_locks_unsafe_for_binlog', 'innodb_stats_sample_pages', 'innodb_use_sys_malloc'], 
+     ['innodb_flush_method', 'autocommit', 'innodb_fast_shutdown', 'innodb_force_recovery', 'innodb_flush_log_at_trx_commit'],
+      ['autocommit', 'innodb_fast_shutdown', 'innodb_flush_log_at_trx_commit', 'innodb_locks_unsafe_for_binlog', 'innodb_stats_sample_pages', 'innodb_force_recovery'], 
+      ['innodb_fast_shutdown', 'innodb_max_purge_lag'],
+       ['autocommit', 'innodb_fast_shutdown', 'innodb_force_recovery', 'innodb_thread_concurrency'], 
+      ['autocommit', 'innodb_fast_shutdown', 'innodb_flush_log_at_trx_commit', 'innodb_force_recovery', 'innodb_locks_unsafe_for_binlog', 'innodb_log_buffer_size'], 
+       ['innodb_thread_concurrency', 'innodb_thread_sleep_delay'], 
+       ['autocommit', 'innodb_fast_shutdown', 'innodb_flush_log_at_trx_commit', 'innodb_force_recovery', 'innodb_locks_unsafe_for_binlog', 'innodb_stats_sample_pages', 'innodb_file_per_table', 'innodb_use_native_aio'], 10
+        ['event_scheduler', 'lock_wait_timeout'], ['max_relay_log_size', 'slave_transaction_retries', 'max_binlog_size'], 
+        ['table_open_cache', 'table_definition_cache'], 
+        ['autocommit', 'binlog_format', 'innodb_fast_shutdown', 'innodb_force_recovery', 'max_allowed_packet', 'query_cache_size', 'relay_log_purge', 'sql_notes', 'sql_mode'], 
+        ['tmp_table_size', 'max_heap_table_size'], ['slave_transaction_retries', 'sync_master_info'], ['secure_auth', 'old_passwords'], ['binlog_format', 'slave_transaction_retries', 'server_id'], ['event_scheduler', 'slave_transaction_retries', 'slave_net_timeout'], ['max_heap_table_size', 'tmp_table_size'], ['autocommit', 'binlog_format', 'innodb_fast_shutdown', 'innodb_force_recovery', 'max_allowed_packet', 'query_cache_size', 'relay_log_purge', 'sql_notes'], ['relay_log_purge', 'sync_relay_log_info'], ['foreign_key_checks', 'unique_checks']]

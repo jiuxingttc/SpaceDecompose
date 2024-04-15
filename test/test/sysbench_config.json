@@ -1,0 +1,11 @@
+{
+    "range_size": 100,
+    "events": 0,
+    "tables": 150,
+    "table_size": 80000,
+    "threads": 32,
+    "report_interval": 10,
+    "run_time": 300,
+    "warmup_time": 10,
+    "script": "oltp_read_write"
+}
